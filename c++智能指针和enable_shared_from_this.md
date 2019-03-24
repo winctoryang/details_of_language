@@ -24,3 +24,4 @@ enable_shared_from_this是干什么的？
 
 class T : enable_shared_from_this< T >:{}; 将派生类作为基类的模板参数。
 
+4：用处：回调（比如siganl / slots模式）等需要调用另一个对象的情境下。
